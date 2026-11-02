@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python agents/log_turn.py" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "python agents/log_turn.py" } ] }
+    ]
+  }
+}
